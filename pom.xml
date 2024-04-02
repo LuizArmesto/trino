@@ -191,6 +191,7 @@
         <dep.errorprone.version>2.26.1</dep.errorprone.version>
         <dep.flyway.version>10.10.0</dep.flyway.version>
         <dep.google.http.client.version>1.44.1</dep.google.http.client.version>
+        <dep.h3.version>4.1.1</dep.h3.version>
         <dep.iceberg.version>1.5.0</dep.iceberg.version>
         <dep.jna.version>5.14.0</dep.jna.version>
         <dep.joda.version>2.12.7</dep.joda.version>
@@ -638,6 +639,12 @@
                 <groupId>com.squareup.wire</groupId>
                 <artifactId>wire-schema-jvm</artifactId>
                 <version>${dep.wire.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.uber</groupId>
+                <artifactId>h3</artifactId>
+                <version>${dep.h3.version}</version>
             </dependency>
 
             <dependency>
